@@ -1,0 +1,63 @@
+.transaction-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.transaction-container h2 {
+  text-align: center;
+  color: #333;
+  font-size: 1.8rem;
+}
+
+.transaction-container nav {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.transaction-container nav a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 600;
+  padding: 10px 15px;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.transaction-container nav a:hover {
+  background-color: #e7f0ff;
+  color: #0056b3;
+}
+
+.transaction-container nav a.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.transaction-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.transaction-button:hover {
+  background-color: #c82333;
+  transform: scale(1.02);
+}
+
+.transaction-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(220, 53, 69, 0.5);
+}

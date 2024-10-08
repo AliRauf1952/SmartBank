@@ -1,0 +1,52 @@
+[
+  {
+    "firstName": "John",
+    "lastName": "Doe",
+    "dateOfBirth": "2000-01-01",
+    "address": "123 Main St",
+    "phoneNumber": "1234567890",
+    "email": "john.doe@example.com",
+    "password": "password123"
+  },
+  {
+    "firstName": "sdgfdgs",
+    "lastName": "sdgds",
+    "dateOfBirth": "2024-10-11",
+    "address": "adsfdsg 23",
+    "phoneNumber": "01445230542",
+    "email": "sdfds@sdf.dsf",
+    "password": "abc"
+  },
+  {
+    "firstName": "asudgfasgf",
+    "lastName": "adsihfia",
+    "dateOfBirth": "2000-02-02",
+    "address": "dsigfadsjf 8",
+    "phoneNumber": "01258846382",
+    "email": "akslhf@fas.ss",
+    "password": "abc"
+  },
+  {
+    "firstName": "sdgfdgs",
+    "lastName": "sdgds",
+    "email": "flkjliu@sdf.dk",
+    "password": "abc",
+    "confirmPassword": "abc"
+  },
+  {
+    "firstName": "llllll",
+    "lastName": "kkkk",
+    "dateOfBirth": "2024-10-17",
+    "address": "adsfdsg 23",
+    "phoneNumber": "01445230545",
+    "email": "lllll@ggg.kk",
+    "password": "abc"
+  },
+  {
+    "firstName": "fff",
+    "lastName": "ddd",
+    "email": "ddd@ccc.oo",
+    "password": "abc",
+    "confirmPassword": "abc"
+  }
+]

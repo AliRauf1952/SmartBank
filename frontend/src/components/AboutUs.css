@@ -1,0 +1,113 @@
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about-section {
+  margin-bottom: 50px;
+}
+
+h1, h2 {
+  color: #004ba8;
+}
+
+p {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Social Media Section */
+.social-media-section {
+  margin-bottom: 50px;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+}
+
+.social-links img {
+  width: 40px;
+  height: 40px;
+}
+
+.form-section {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 16px;
+  color: #004ba8;
+  margin-bottom: 5px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.submit-btn {
+  background-color: #004ba8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #003366;
+}
+
+.success-message {
+  font-size: 18px;
+  color: green;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  h1, h2 {
+    font-size: 24px;
+  }
+
+  input, select, textarea {
+    font-size: 14px;
+  }
+}
+
+.back-to-top {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.back-to-top a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #004ba8;
+}
+
+.back-to-top a:hover {
+  text-decoration: underline;
+}
