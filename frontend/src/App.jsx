@@ -10,6 +10,8 @@ import Registration from './components/Registration';
 import UserProfile from "./components/UserProfile";
 import Transaction from "./components/Transaction";
 import Dashboard from './components/Dashboard';
+import AdminLogin from './components/AdminLogin';
+import AdminDashboard from './components/AdminDashboard'; 
 import { BalanceProvider } from './components/BalanceContext';
 import './App.css';
 
@@ -41,6 +43,8 @@ const App = () => {
             <Route path="/user-profile" element={<UserProfile />} />
             <Route path="/transaction/*" element={<Transaction />} />
             <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/adminLogin" element={<AdminLogin />} />
+            <Route path="/adminDashboard" element={<AdminDashboard />} /> {/* Add AdminDashboard Route */}
           </Routes>
         </div>
       </Router>
